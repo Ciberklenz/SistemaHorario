@@ -1,0 +1,26 @@
+p{
+    display:inline-block;
+    line-height: 0.5em;
+}
+
+#Reloj{
+    max-height: 15%;
+    max-width: 15%;
+    font-size: 2em;
+    text-align: right;
+    color: white;
+
+    margin-left: 25vw;
+}
+
+#Reloj > #cajasegundos{
+    color: white;
+    display: inline-block;
+    min-width: 3%;
+}
+
+#cajasegundos .segundos, #cajasegundos .ampm {
+    font-size: 0.5rem;
+    color: white;
+    display: block;
+}
